@@ -1,4 +1,4 @@
-// Questão 1
+//1. Cálculo de Desconto Progressivo
 let valorCompra = 500
 let desconto = 0
 
@@ -14,7 +14,7 @@ let valorComDesconto = valorCompra - valorCompra * desconto
 
 console.log(`Valor final: R$ ${valorComDesconto}`)
 
-// Questão 2
+//2. Sistema de Pontos de Fidelidade
 let categoria = 'Ouro'
 let pontos = 0
 
@@ -38,7 +38,7 @@ switch(categoria){
         console.log('Categoria inválida.')
 }
 
-// Questão 3
+//3. Sequência de Fibonacci
 let n1 = 0
 let n2 = 1
 let fibonacci
@@ -56,7 +56,7 @@ for(let i = 0; i < 10; i++){
     }
 }
 
-// Questão 4
+//4. Simulador de Bateria
 let nivelBateria = 100
 let hora = 0
 
@@ -68,7 +68,7 @@ while(nivelBateria >= 0){
 
 console.log('Bateria esgotada')
 
-// Questão 5
+//5. Função para Calcular Dias de Vida
 function calcularDiasVida(idadeEmAnos){
     let diasVividos = idadeEmAnos * 365
     return diasVividos
@@ -80,7 +80,7 @@ let diasDeVida = (calcularDiasVida(idade))
 console.log(`Uma pessoa de ${idade} anos viveu aproximadamente ${diasDeVida} dias`)
 
 
-// Questão 6
+//6. Virificador de Aprovação Escolar
 let nota1 = 10
 let nota2 = 10
 let nota3 = 10
@@ -94,7 +94,7 @@ if(media >= 6 && frequencia >= 75){
     console.log('Reprovado')
 }
 
-// Questão 7
+//7. Menor Número da Lista
 let listaDeNumeros = [3, 6, 10, 17, 1, 9]
 let numeroAtual = listaDeNumeros[0]
 
